@@ -9,3 +9,4 @@ use App\Http\Controllers\duydang;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/admin');
